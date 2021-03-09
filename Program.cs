@@ -37,7 +37,7 @@ namespace Empleado
         //Metodos
         public void Imprime()
         {
-            Console.WriteLine($"{Nombre}, {Salario}");
+            Console.WriteLine($"Hola mi nombre es {Nombre}, {Salario}");
         }
 
         
@@ -51,7 +51,7 @@ namespace Empleado
             //Lista(Se pueden seguir agregando elementos a diferencia de un alegro.)
             List<Empleado> empleados = new List<Empleado>();
 
-            empleados.Add( new Empleado("Joe", 123000));
+            empleados.Add( new Empleado("Juan", 123000));
             empleados.Add(new Empleado("Tom", 123000));
             empleados.Add(new Empleado("Ana", 200000));
 
