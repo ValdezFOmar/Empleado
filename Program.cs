@@ -37,7 +37,7 @@ namespace Empleado
         //Metodos
         public void Imprime()
         {
-            Console.WriteLine($"Hola mi nombre es {Nombre}, {Salario}");
+            Console.WriteLine($"Hi my name is {Nombre}, {Salario}");
         }
 
         
